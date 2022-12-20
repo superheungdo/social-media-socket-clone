@@ -1,5 +1,5 @@
 import { Server } from "socket.io";
-import "./dotenv.js";
+import "dotenv/config";
 
 const io = new Server(8800, {
   cors: {
